@@ -14,3 +14,9 @@ E:\Repository\Viktorina\viktorina\WindowsFormsApplication1\obj\Debug\Interop.WMP
 E:\Repository\Viktorina\viktorina\WindowsFormsApplication1\obj\Debug\AxInterop.WMPLib.dll
 E:\Repository\Viktorina\viktorina\WindowsFormsApplication1\obj\Debug\Viktorina.csproj.ResolveComReference.cache
 E:\Repository\Viktorina\viktorina\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.fGame.resources
+E:\Repository\Viktorina\Victorin.git\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+E:\Repository\Viktorina\Victorin.git\WindowsFormsApplication1\obj\Debug\Interop.WMPLib.dll
+E:\Repository\Viktorina\Victorin.git\WindowsFormsApplication1\obj\Debug\AxInterop.WMPLib.dll
+E:\Repository\Viktorina\Victorin.git\WindowsFormsApplication1\obj\Debug\Viktorina.csproj.ResolveComReference.cache
+E:\Repository\Viktorina\Victorin.git\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+E:\Repository\Viktorina\Victorin.git\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
