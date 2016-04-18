@@ -19,9 +19,15 @@ namespace WindowsFormsApplication1
 
         static public void ReadMus()
         {
-            string[] mus_list = Directory.GetFiles(lastFolser, "*.mp3", allDir ? SearchOption.AllDirectories : SearchOption.TopDirectoryOnly);
-            list.Clear();
-            list.AddRange(mus_list);
+            try
+            {
+                string[] mus_list = Directory.GetFiles(lastFolser, "*.mp3", allDir ? SearchOption.AllDirectories : SearchOption.TopDirectoryOnly);
+                list.Clear();
+                list.AddRange(mus_list);
+            }
+           catch
+            {
+            }
         }
 
         static string regKeyName = "Software\\MyCompani\\GuessMelody";
@@ -38,6 +44,7 @@ namespace WindowsFormsApplication1
                 rk.SetValue("GameDuration", gameDuration);
                 rk.SetValue("MusicDuration", musicDuration);
                 rk.SetValue("AllDir",allDir);
+
             }
             finally
             {
@@ -60,6 +67,7 @@ namespace WindowsFormsApplication1
                     randomStart = Convert.ToBoolean(rk.GetValue("RandomStart", false));
                     musicDuration= (int)rk.GetValue("MusicDuration");
                     allDir= Convert.ToBoolean(rk.GetValue("AllDir", false));
+                   
                 }
                 
             }

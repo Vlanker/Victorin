@@ -29,5 +29,12 @@ namespace WindowsFormsApplication1
         {
             fg.ShowDialog();
         }
+
+        private void fMain_Load(object sender, EventArgs e)
+        {
+            Viktorin.ReadParams();
+            Viktorin.ReadMus();
+
+        }
     }
 }

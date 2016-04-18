@@ -20,3 +20,13 @@ E:\Repository\Viktorina\Victorin.git\WindowsFormsApplication1\obj\Debug\AxIntero
 E:\Repository\Viktorina\Victorin.git\WindowsFormsApplication1\obj\Debug\Viktorina.csproj.ResolveComReference.cache
 E:\Repository\Viktorina\Victorin.git\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
 E:\Repository\Viktorina\Victorin.git\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+E:\Repository\Viktorina\Victorin.git\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+E:\Repository\Viktorina\Victorin.git\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+E:\Repository\Viktorina\Victorin.git\WindowsFormsApplication1\bin\Debug\Interop.WMPLib.dll
+E:\Repository\Viktorina\Victorin.git\WindowsFormsApplication1\bin\Debug\AxInterop.WMPLib.dll
+E:\Repository\Viktorina\Victorin.git\WindowsFormsApplication1\obj\Debug\Viktorina.csprojResolveAssemblyReference.cache
+E:\Repository\Viktorina\Victorin.git\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.fGame.resources
+E:\Repository\Viktorina\Victorin.git\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.fMain.resources
+E:\Repository\Viktorina\Victorin.git\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.fSitings.resources
+E:\Repository\Viktorina\Victorin.git\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+E:\Repository\Viktorina\Victorin.git\WindowsFormsApplication1\obj\Debug\Viktorina.csproj.GenerateResource.Cache
