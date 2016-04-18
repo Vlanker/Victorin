@@ -41,6 +41,8 @@
             this.lbMelodyCount = new System.Windows.Forms.Label();
             this.pbTime = new System.Windows.Forms.ProgressBar();
             this.tTime = new System.Windows.Forms.Timer(this.components);
+            this.lbmusDuration = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.WMP)).BeginInit();
             this.SuspendLayout();
             // 
@@ -53,6 +55,7 @@
             this.WMP.Size = new System.Drawing.Size(224, 84);
             this.WMP.TabIndex = 0;
             this.WMP.Visible = false;
+            this.WMP.OpenStateChange += new AxWMPLib._WMPOCXEvents_OpenStateChangeEventHandler(this.WMP_OpenStateChange);
             // 
             // btnNext
             // 
@@ -146,12 +149,33 @@
             this.tTime.Interval = 1000;
             this.tTime.Tick += new System.EventHandler(this.tTime_Tick);
             // 
+            // lbmusDuration
+            // 
+            this.lbmusDuration.AutoSize = true;
+            this.lbmusDuration.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lbmusDuration.Location = new System.Drawing.Point(341, 135);
+            this.lbmusDuration.Name = "lbmusDuration";
+            this.lbmusDuration.Size = new System.Drawing.Size(16, 18);
+            this.lbmusDuration.TabIndex = 10;
+            this.lbmusDuration.Text = "0";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.Location = new System.Drawing.Point(10, 135);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(325, 18);
+            this.label1.TabIndex = 11;
+            this.label1.Text = "Оставшееся время проигрываемой мелодии:";
+            // 
             // fGame
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::WindowsFormsApplication1.Properties.Resources.metal1;
-            this.ClientSize = new System.Drawing.Size(388, 265);
+            this.ClientSize = new System.Drawing.Size(388, 190);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lbmusDuration);
             this.Controls.Add(this.pbTime);
             this.Controls.Add(this.lbMelodyCount);
             this.Controls.Add(this.btnContiny);
@@ -163,10 +187,12 @@
             this.Controls.Add(this.btnNext);
             this.Controls.Add(this.WMP);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.KeyPreview = true;
             this.Name = "fGame";
             this.Text = "Игра";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.fGame_FormClosed);
             this.Load += new System.EventHandler(this.fGame_Load);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.fGame_KeyDown);
             ((System.ComponentModel.ISupportInitialize)(this.WMP)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -186,5 +212,7 @@
         private System.Windows.Forms.Label lbMelodyCount;
         private System.Windows.Forms.ProgressBar pbTime;
         private System.Windows.Forms.Timer tTime;
+        private System.Windows.Forms.Label lbmusDuration;
+        private System.Windows.Forms.Label label1;
     }
 }

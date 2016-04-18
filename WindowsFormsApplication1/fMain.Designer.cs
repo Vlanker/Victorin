@@ -58,7 +58,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::WindowsFormsApplication1.Properties.Resources.metal1;
-            this.ClientSize = new System.Drawing.Size(506, 477);
+            this.ClientSize = new System.Drawing.Size(243, 166);
             this.Controls.Add(this.btnSitings);
             this.Controls.Add(this.btnPlay);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));

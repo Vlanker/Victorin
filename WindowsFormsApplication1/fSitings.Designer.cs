@@ -41,6 +41,10 @@
             this.cbGameDuration = new System.Windows.Forms.ComboBox();
             this.cbMusicDuration = new System.Windows.Forms.ComboBox();
             this.cbRandomStart = new System.Windows.Forms.CheckBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.gbSitings.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -48,6 +52,7 @@
             // 
             this.lbList.Dock = System.Windows.Forms.DockStyle.Top;
             this.lbList.FormattingEnabled = true;
+            this.lbList.HorizontalScrollbar = true;
             this.lbList.Location = new System.Drawing.Point(0, 0);
             this.lbList.Name = "lbList";
             this.lbList.Size = new System.Drawing.Size(449, 264);
@@ -105,6 +110,10 @@
             // 
             // gbSitings
             // 
+            this.gbSitings.Controls.Add(this.comboBox2);
+            this.gbSitings.Controls.Add(this.comboBox1);
+            this.gbSitings.Controls.Add(this.label4);
+            this.gbSitings.Controls.Add(this.label3);
             this.gbSitings.Controls.Add(this.cbRandomStart);
             this.gbSitings.Controls.Add(this.cbMusicDuration);
             this.gbSitings.Controls.Add(this.cbGameDuration);
@@ -145,7 +154,7 @@
             "120"});
             this.cbGameDuration.Location = new System.Drawing.Point(154, 24);
             this.cbGameDuration.Name = "cbGameDuration";
-            this.cbGameDuration.Size = new System.Drawing.Size(121, 21);
+            this.cbGameDuration.Size = new System.Drawing.Size(74, 21);
             this.cbGameDuration.TabIndex = 2;
             this.cbGameDuration.Text = "60";
             // 
@@ -160,7 +169,7 @@
             "30"});
             this.cbMusicDuration.Location = new System.Drawing.Point(154, 50);
             this.cbMusicDuration.Name = "cbMusicDuration";
-            this.cbMusicDuration.Size = new System.Drawing.Size(121, 21);
+            this.cbMusicDuration.Size = new System.Drawing.Size(74, 21);
             this.cbMusicDuration.TabIndex = 3;
             this.cbMusicDuration.Text = "20";
             // 
@@ -173,6 +182,42 @@
             this.cbRandomStart.TabIndex = 4;
             this.cbRandomStart.Text = "Воспроизводить со случайного места";
             this.cbRandomStart.UseVisualStyleBackColor = true;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(252, 27);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(50, 13);
+            this.label3.TabIndex = 5;
+            this.label3.Text = "Игрок 1:";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(252, 53);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(50, 13);
+            this.label4.TabIndex = 6;
+            this.label4.Text = "Игрок 2:";
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(308, 24);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(72, 21);
+            this.comboBox1.TabIndex = 7;
+            this.comboBox1.Text = "A";
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Location = new System.Drawing.Point(308, 50);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(72, 21);
+            this.comboBox2.TabIndex = 8;
+            this.comboBox2.Text = "P";
             // 
             // fSitings
             // 
@@ -211,5 +256,9 @@
         private System.Windows.Forms.ComboBox cbGameDuration;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label3;
     }
 }
